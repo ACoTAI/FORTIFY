@@ -1,0 +1,20 @@
+# Runtime configuration for the pipeline
+api_set: ["strcpy", "memcpy", "strcat", "gets", "sprintf"]
+inputs:
+  pdg_json: examples/minipdg.json   # path to a JSON file describing PDG/CFG/AST/etc
+
+
+# Embedding switches
+use_real_embeddings: false         # set true to use real models if installed
+codebert_model: microsoft/codebert-base
+hf_cache_dir: .cache/huggingface   # local cache directory
+doc2vec_model_path: .cache/doc2vec/doc2vec.model  # path to a trained Doc2Vec model
+
+# Evaluation output directory
+out_dir: out
+
+# Minimal dataset path for quickstart
+dataset_json: examples/dataset_min.json
+
+# Slicing: top-k percent by composite centrality used as seeds (Eq.3)
+tau_top_percent: 10
