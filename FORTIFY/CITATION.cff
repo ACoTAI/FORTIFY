@@ -1,8 +1,0 @@
-cff-version: 1.2.0
-message: If you use this software, please cite it.
-title: "FORTIFY-SCG: SCG Construction and Pipeline"
-authors:
-  - family-names: Doe
-    given-names: Jane
-version: "0.1.0"
-date-released: "2025-09-25"
