@@ -1,0 +1,12 @@
+networkx>=3.2
+pyyaml>=6.0
+
+numpy>=1.24
+
+numpy>=1.24
+
+transformers>=4.40.0
+torch>=2.1.0
+gensim>=4.3.0
+matplotlib>=3.8
+pytest>=8.1

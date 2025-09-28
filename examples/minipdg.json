@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "api": "",
+      "bb": "b1",
+      "func": "f",
+      "is_input_boundary": true
+    },
+    {
+      "id": "n2",
+      "api": "strcpy",
+      "bb": "b1",
+      "func": "f",
+      "is_input_boundary": false
+    },
+    {
+      "id": "n3",
+      "api": "",
+      "bb": "b1",
+      "func": "f",
+      "is_input_boundary": false
+    }
+  ],
+  "pdg_edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n3",
+      "n2"
+    ]
+  ],
+  "cfg_edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n3"
+    ]
+  ],
+  "ast_edges": [
+    [
+      "n1",
+      "n2"
+    ]
+  ],
+  "def_use": {
+    "n2": [
+      "n3"
+    ]
+  },
+  "interproc_pairs": []
+}
